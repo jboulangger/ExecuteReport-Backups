@@ -1,5 +1,5 @@
 ---
 # tasks file for lnxData
-- name: Ejecución para el reporte de La Positiva
-  shell: ansible-playbook /data/innovation/LaPositiva/LaPositiva-VeeamDataprotector-ReportesDiarios/lnxRoutine.yml -vv
+- name: Ejecución para el reporte mensual de La Positiva
+  shell: ansible-playbook /data/innovation/LaPositiva/LaPositiva-VeeamDataprotector-ReportesMensuales/lnxRoutine.yml -vv
 
