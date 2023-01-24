@@ -1,7 +1,7 @@
 ---
 - name: YML Data
   hosts: All
-  connection: local
+  #connection: local
   become: true
   roles:
     - lnxRoutine
